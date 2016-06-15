@@ -6,7 +6,7 @@ class LaravelSF {
     protected static $pdo;
     protected static $need_dump_info;
     //init
-    function __construct( $connection_name = 'mysql' ) {
+    function __construct( $connection_name = '' ) {
         if (self::$pdo == null) {
             self::$pdo = DB::connection( $connection_name )->getPdo();
             self::$pdo->exec ( 'SET NAMES UTF8' );

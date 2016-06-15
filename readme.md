@@ -1,21 +1,21 @@
-##Sweeter-fetch for Laravel
-Wrapper for PDO.
+##laravel-sweeter-fetch - fetch for Laravel
+Wrapper of PDO.
 
 Procedure oriented, Pre process, As supplement of ORM.
 
-[![Latest Stable Version](https://poser.pugx.org/qdladoooo/sweeter-fetch/v/stable)](https://packagist.org/packages/qdladoooo/sweeter-fetch)
-[![Latest Unstable Version](https://poser.pugx.org/qdladoooo/sweeter-fetch/v/unstable)](https://packagist.org/packages/qdladoooo/sweeter-fetch)
-[![License](https://poser.pugx.org/qdladoooo/sweeter-fetch/license)](https://packagist.org/packages/qdladoooo/sweeter-fetch)
+[![Latest Stable Version](https://poser.pugx.org/qdladoooo/laravel-sweeter-fetch/v/stable)](https://packagist.org/packages/qdladoooo/laravel-sweeter-fetch)
+[![Latest Unstable Version](https://poser.pugx.org/qdladoooo/laravel-sweeter-fetch/v/unstable)](https://packagist.org/packages/qdladoooo/laravel-sweeter-fetch)
+[![License](https://poser.pugx.org/qdladoooo/laravel-sweeter-fetch/license)](https://packagist.org/packages/qdladoooo/laravel-sweeter-fetch)
 ##Installation
 ```shell
-composer require qdladoooo/sweeter-fetch
+composer require qdladoooo/laravel-sweeter-fetch
 ```
 ##Initialization
 ```php
-require "../vendor/autoload.php";
-use SweeterFetch\SweeterFetch;
+use SweeterFetch\LaravelSF;
 
-$sf = new SweeterFetch('host', 'username', 'password');
+//take db_connection as parameter 
+$sf = new LaravelSF();
 ```
 ##Use
 Execute none query
@@ -53,5 +53,5 @@ $sf->Es($sql);
 ```
 ## License
 
-The Sweeter-fetch is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The laravel-sweeter-fetch is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
