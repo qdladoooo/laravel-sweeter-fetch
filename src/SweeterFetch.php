@@ -4,11 +4,15 @@ namespace SweeterFetch;
 use Illuminate\Support\Facades\DB;
 class SweeterFetch {
     protected static $pdo;
+    protected static $need_dump_info;
     //init
     function __construct( $connection_name = 'mysql' ) {
         if (self::$pdo == null) {
             self::$pdo = DB::connection( $connection_name )->getPdo();
             self::$pdo->exec ( 'SET NAMES UTF8' );
+
+            //follow .env
+            $this->NeedDumpInfo(env('APP_DEBUG'));
         }
     }
 
