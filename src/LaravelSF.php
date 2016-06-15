@@ -2,7 +2,7 @@
 namespace SweeterFetch;
 
 use Illuminate\Support\Facades\DB;
-class SweeterFetch {
+class LaravelSF {
     protected static $pdo;
     protected static $need_dump_info;
     //init
