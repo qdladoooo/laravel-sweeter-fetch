@@ -1,0 +1,27 @@
+{
+    "name": "qdladoooo/laravel-sweeter-fetch",
+    "description": "Sweeter-fetch for laravel.",
+    "keywords": ["pdo wrapper", "sweeter", "fetch"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Dlad",
+            "email": "qdladoooo@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SweeterFetch\\": "src/"
+        }    
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.3.x-dev"
+        }
+    }
+}
