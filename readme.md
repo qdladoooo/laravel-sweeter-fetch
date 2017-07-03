@@ -1,4 +1,4 @@
-##laravel-sweeter-fetch - fetch for Laravel
+## laravel-sweeter-fetch - fetch for Laravel
 Wrapper of PDO.
 
 Procedure oriented, Pre process, As supplement of ORM.
@@ -6,18 +6,18 @@ Procedure oriented, Pre process, As supplement of ORM.
 [![Latest Stable Version](https://poser.pugx.org/qdladoooo/laravel-sweeter-fetch/v/stable)](https://packagist.org/packages/qdladoooo/laravel-sweeter-fetch)
 [![Latest Unstable Version](https://poser.pugx.org/qdladoooo/laravel-sweeter-fetch/v/unstable)](https://packagist.org/packages/qdladoooo/laravel-sweeter-fetch)
 [![License](https://poser.pugx.org/qdladoooo/laravel-sweeter-fetch/license)](https://packagist.org/packages/qdladoooo/laravel-sweeter-fetch)
-##Installation
+## Installation
 ```shell
 composer require qdladoooo/laravel-sweeter-fetch
 ```
-##Initialization
+## Initialization
 ```php
 use SweeterFetch\LaravelSF;
 
 //take db_connection as parameter 
 $sf = new LaravelSF();
 ```
-##Use
+## Use
 Execute none query
 
 ```php
